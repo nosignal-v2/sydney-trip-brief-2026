@@ -2,57 +2,64 @@
 
 ## Visual Identity
 
-이 슬라이드 덱은 **에디토리얼 매거진** 스타일을 기반으로 합니다.
-여행 일정이라는 실용적 정보를, 보는 사람이 기대감을 느끼도록 시각적으로 표현하는 것이 목표입니다.
+이 슬라이드 덱은 **Anthropic Design System**을 기반으로 합니다.
+Slate ink on ivory cream — 모노크롬 절제 위에 clay/orange 액센트 하나로 포인트를 주는 에디토리얼 접근입니다.
+Pretendard(sans) + Noto Serif KR(본문) 조합으로 한글 가독성을 확보합니다.
 
 ## Design References
 
 | 참고 | 요소 | 적용 |
 |------|------|------|
-| [Monocle Magazine](https://monocle.com) | 따뜻한 크래프트 컬러, 모노스페이스 메타 정보, 깔끔한 타임라인 | 전체 색상 체계, chrome/foot 영역 |
-| [Cereal Magazine](https://readcereal.com) | 여백 활용, 대형 타이포, 사진과 텍스트의 호흡 | 커버 레이아웃, lead 텍스트 |
-| Swiss International Typographic Style | 그리드 기반 정보 배치, 강한 위계 대비 | 타임라인, 테이블, pill 컴포넌트 |
-| Apple Keynote 2024 | 극단적 타입 사이즈 대비 (96px h1 vs 11px meta) | 커버-본문 사이즈 비율 |
-| [Guizang PPT Skill](https://github.com/op7418/guizang-ppt-skill) – Style A | editorial magazine × electronic ink, 수평 스와이프 네비게이션 | 네비게이션 패턴, 레이아웃 리듬 |
+| [Anthropic Design System](https://anthropic.com) | Slate #141413 / Cream #faf9f5, clay accent, cream↔black 밴드 리듬 | 전체 색상, 밴드 교대 |
+| Anthropic Typography Stack | Serif(디스플레이/본문) + Sans(헤드라인) + Mono(메타) | 3-typeface 계층 |
+| [Monocle Magazine](https://monocle.com) | 모노스페이스 메타 정보, 타임라인 | chrome/foot, 시간 표기 |
+| [Cereal Magazine](https://readcereal.com) | 여백 활용, serif 본문, 사진 호흡 | lead 텍스트, 커버 |
+| [Guizang PPT Skill](https://github.com/op7418/guizang-ppt-skill) | 수평 스와이프, editorial ink 스타일 | 네비게이션, 레이아웃 리듬 |
 
-## Color System
+## Color System (Anthropic-based)
 
 ```
 :root {
-  --ink:    #112a35   /* 주 텍스트, 어두운 배경 */
-  --ink-2:  #244550   /* 보조 텍스트 */
-  --paper:  #f5f0e6   /* 메인 배경 (따뜻한 크래프트) */
-  --paper-2:#e9e0d2   /* 보조 배경 */
-  --white:  #fffdf8   /* 순백이 아닌 따뜻한 화이트 */
-  --ocean:  #0e6f78   /* 액센트 (바다/하버) */
-  --sky:    #9ad3d8   /* 밝은 하늘 */
-  --sun:    #f1b24a   /* 강조, CTA, 알림 */
-  --coral:  #d75f48   /* 시간, 경고, 포인트 */
-  --leaf:   #7c906b   /* 자연, Option B */
+  --ink:    #141413   /* Anthropic Slate — 주 텍스트, 어두운 배경 */
+  --ink-2:  #3d3d3a   /* Ink Soft — 보조 텍스트 */
+  --paper:  #faf9f5   /* Anthropic Canvas — 메인 배경 (아이보리 크림) */
+  --paper-2:#f0eee6   /* Surface Secondary */
+  --white:  #faf9f5   /* Canvas와 동일 */
+  --ocean:  #6a9bcc   /* Accent Sky — 확정/링크 */
+  --sky:    #bcd1ca   /* Accent Cactus — 밝은 보조 */
+  --sun:    #d97757   /* Accent Clay — 주 액센트 (시간, 포인트, CTA) */
+  --coral:  #d97757   /* sun과 동일 (단일 액센트 정책) */
+  --leaf:   #788c5d   /* Accent Olive — 자연, Option B */
 }
+Dark slides: background #000000 (Anthropic inverse)
 ```
 
 ### 색상 역할
-- **coral**: 시간 표시 (`timeline__time`), 날짜 뱃지, 에너지가 필요한 포인트
-- **sun**: kicker 하이라이트, 선택 안내, CTA 영역, 결정 사항
-- **ocean**: 확정 사항 pill, 타임라인 마커, 탭 컬러
-- **leaf**: 자연 관련 옵션 (Blue Mountains), Option B 구분
+- **clay (#d97757)**: 시간 표시, kicker 하이라이트, border-left 액센트, CTA — 유일한 고채도 색상
+- **sky (#6a9bcc)**: 확정 사항 pill, 타임라인 마커, 링크 암시
+- **olive (#788c5d)**: 자연 관련 옵션 (Blue Mountains), Option B 구분
+- **ink (#141413)**: 제목, 강한 구분, 어두운 배경
+- **#000000**: 히어로/임팩트 슬라이드 배경 (Anthropic의 black band)
 
-## Typography
+## Typography (3-Typeface Stack)
 
-| 용도 | Font | Size | Weight |
-|------|------|------|--------|
-| 제목 h1 | Pretendard (sans) | 96px → 48px (mobile) | 900 |
-| 소제목 h2 | Pretendard | 60px → 38px | 900 |
-| 본문 h3 | Pretendard | 23px → 18px | 850 |
-| 리드 텍스트 | Pretendard | 20px → 15px | 650 |
-| 메타 정보 | SFMono/Menlo (mono) | 11–12px → 9px | 700–900 |
-| 내비게이션 | Mono | 10px | 900 |
+| 용도 | Font Stack | Size | Weight |
+|------|-----------|------|--------|
+| 제목 h1 | Pretendard Variable (--sans) | 96px → 48px (mobile) | 900 |
+| 소제목 h2 | Pretendard Variable | 60px → 38px | 900 |
+| 본문 h3 | Pretendard Variable | 23px → 18px | 850 |
+| 리드/설명 | Noto Serif KR (--serif) | 19px → 15px | 400 |
+| 상태 노트 | Noto Serif KR | 14px | 400 |
+| 메타 정보 | SFMono/JetBrains Mono (--mono) | 11–12px → 9px | 700–900 |
+| 라벨/배지 | Mono uppercase | 9–12px | 800–900 |
 
-### 타입 원칙
+### 타입 원칙 (Anthropic 차용)
+- **Serif = 읽는 텍스트** (설명, 리드, 노트) — 에세이 같은 느낌
+- **Sans = 보는 텍스트** (제목, 네비게이션) — 임팩트와 구조
+- **Mono = 시스템 텍스트** (날짜, 시간, 메타) — 데이터 느낌
 - `word-break: keep-all` — 한국어 단어 단위 줄바꿈
-- `line-height: 0.95` (h1) → `1.55` (lead) — 계층별 행간 구분
-- 모노스페이스는 "시스템 정보" (날짜, 시간, 숫자)에만 사용
+- `letter-spacing: -0.02em` (h2) — 한국어 큰 글씨 타이트닝
+- `letter-spacing: 0.06em` (kicker mono) — 소형 대문자 가독성
 
 ## Layout System
 
@@ -142,3 +149,4 @@ sydney-trip-brief-2026/
 | 2026-07-30 | v1.0 | 초기 배포 (13슬라이드: 본편 7 + 부록 6) |
 | 2026-07-31 | v1.1 | 날짜 수정, 네비게이션 힌트, 접근성 개선 |
 | 2026-07-31 | v2.0 | 디자인 개선 (텍스처, 타이포, 인터랙션, 깊이감) |
+| 2026-07-31 | v3.0 | Anthropic Design System 테마 적용 (slate/cream, serif 본문, black band) |
