@@ -2405,7 +2405,7 @@
             <h2 data-anim style="--delay: 1">Bondi에서 수영하고, 먹고, 쉬어요</h2>
             <p class="lead" data-anim style="--delay: 2">러닝 멤버와 비러닝 멤버가 따로 출발해 10:00 Icebergs에서 만나요. 이후 해변·점심·카페를 함께 즐겨요.</p>
             <div class="day-intro__tags" data-anim style="--delay: 3">
-              <span class="pill pill--choice">러닝조 08:00 출발</span>
+              <span class="pill pill--choice">parkrun 07:00 또는 08:00 출발</span>
               <span class="pill pill--choice">늦은출발조 자유 합류</span>
               <span class="pill pill--group">09:45 Icebergs 수영</span>
               <span class="pill pill--choice">15:15 조기 귀환 가능</span>
@@ -2413,8 +2413,12 @@
           </div>
           <div class="compact-plan" data-anim style="--delay: 3">
             <div class="compact-plan__row">
+              <time>06:45</time>
+              <div><strong>parkrun 참가자 출발 (선택)</strong><span>Centennial Park 07:00 · 5km · 300~800명과 함께</span></div>
+            </div>
+            <div class="compact-plan__row">
               <time>08:00</time>
-              <div><strong>러닝조 숙소 출발</strong><span>Bondi → Marks Park → Bronte 5~6km</span></div>
+              <div><strong>Bondi 러닝조 출발</strong><span>Bondi → Marks Park → Bronte 5~6km</span></div>
             </div>
             <div class="compact-plan__row">
               <time>09:15</time>
@@ -2600,57 +2604,91 @@
       <footer class="foot"><span>The Rocks · Barangaroo · Circular Quay 도보권</span><span>APPENDIX 01 / 06</span></footer>
     </section>
 
-    <section class="slide appendix" aria-label="러닝 코스 상세 부록 2">
-      <header class="chrome">
+    <section class="slide appendix" aria-label="러닝 코스 상세 부록 2" style="background: #000000; color: var(--white);">
+      <header class="chrome" style="color: rgba(250,249,245,0.66);">
         <span class="chrome__date">APPENDIX 02 · RUN & BRUNCH</span>
         <span>매일 다른 코스 · 매일 다른 브런치</span>
       </header>
-      <div class="content">
+      <div class="content" style="align-content: start; gap: 16px; padding-top: 1vh;">
         <div class="appendix__head">
           <div>
             <div class="kicker" data-anim>대장님 요청 · 4일 연속 러닝</div>
-            <h2 data-anim style="--delay: 1">네 번의 아침을 달리는 여행</h2>
+            <h2 data-anim style="--delay: 1; color: var(--white); max-width: 14ch;">네 번의 아침을 달리는 여행</h2>
           </div>
-          <p class="appendix__summary" data-anim style="--delay: 2">매일 다른 풍경, 매일 다른 브런치. 러닝은 희망자만 참여하고, 비참여자는 브런치부터 합류해요.</p>
+          <p class="appendix__summary" data-anim style="--delay: 2; color: rgba(250,249,245,0.7);">매일 다른 풍경, 매일 다른 브런치. 러닝은 희망자만. 비참여자는 브런치부터 합류.</p>
         </div>
-        <table class="venue-table" data-anim style="--delay: 3">
-          <thead>
-            <tr><th>날짜</th><th>코스</th><th>거리</th><th>주요 포인트</th><th>브런치</th></tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td data-label=""><strong>9/4 금</strong></td>
-              <td data-label="코스">Harbour Bridge → Lavender Bay</td>
-              <td class="price" data-label="거리">4~5km</td>
-              <td data-label="포인트">① Observatory Hill 전망<br>② 다리 87m 파노라마<br>③ Mary Booth Lookout<br>④ Luna Park 수변<br>⑤ Wendy's Secret Garden</td>
-              <td data-label="브런치"><strong>Flying Bear</strong><br>Kirribilli 수변 데크<br>하버 뷰 브런치</td>
-            </tr>
-            <tr>
-              <td data-label=""><strong>9/5 토</strong></td>
-              <td data-label="코스">Bondi → Marks Park → Bronte</td>
-              <td class="price" data-label="거리">5~6km</td>
-              <td data-label="포인트">① Icebergs 절벽 위 출발<br>② Marks Park 180° 수평선<br>③ Tamarama 계단 구간<br>④ Bronte 잔디밭<br>⑤ 복귀 시 Bondi 곡선 전망</td>
-              <td data-label="브런치"><strong>Icebergs 카페</strong><br>또는 bills Bondi<br>해변 조식</td>
-            </tr>
-            <tr>
-              <td data-label=""><strong>9/6 일</strong></td>
-              <td data-label="코스">A: 숙소 근처 루프<br>B: Centennial Park</td>
-              <td class="price" data-label="거리">A: 3~4km<br>B: 4~5km</td>
-              <td data-label="포인트">A: Observatory Hill · Walsh Bay<br>B: Grand Drive 가로수 터널<br>B: Busby's Pond 습지<br>B: Paperbark Grove 회복</td>
-              <td data-label="브런치"><strong>Centennial Homestead</strong><br>공원 안 아침<br>plated breakfast 08:00~</td>
-            </tr>
-            <tr>
-              <td data-label=""><strong>9/7 월</strong></td>
-              <td data-label="코스">Barangaroo → Circular Quay → Opera House</td>
-              <td class="price" data-label="거리">4~6km</td>
-              <td data-label="포인트">① Nawi Cove 새벽 수면<br>② Wulugul Walk 하버 파노라마<br>③ Opera House 정면 러닝<br>④ 복귀 시 Harbour Bridge 정면</td>
-              <td data-label="브런치"><strong>The Grounds of the City</strong><br>도심 브런치<br>월요일 07:00 오픈</td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="appendix__note">모든 러닝은 희망자만 참여. 9월 시드니 일출 ~06:00 · 08:00 출발 시 골든아워 꼬리. 코스 상세는 출발 1주 전 확정.</p>
+        <div data-anim style="--delay: 3; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr); gap: 2.5vw; align-items: start;">
+          <table class="venue-table" style="border-top-color: var(--sun);">
+            <thead>
+              <tr><th>날짜</th><th>코스</th><th>거리</th><th>주요 포인트</th><th>브런치</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label=""><strong style="color:var(--sun)">9/4 금</strong></td>
+                <td data-label="코스">Harbour Bridge<br>→ Lavender Bay</td>
+                <td class="price" data-label="거리">4~5km</td>
+                <td data-label="포인트">Observatory Hill 전망<br>다리 87m 파노라마<br>Mary Booth Lookout<br>Wendy's Secret Garden</td>
+                <td data-label="브런치"><strong>Flying Bear</strong><br>수변 데크 · 하버 뷰</td>
+              </tr>
+              <tr>
+                <td data-label=""><strong style="color:var(--sun)">9/5 토</strong></td>
+                <td data-label="코스">① parkrun 5km<br>② Bondi 코스탈 런</td>
+                <td class="price" data-label="거리">① 5km<br>② 5~6km</td>
+                <td data-label="포인트">① 300~800명과 함께 달리는<br>로컬 커뮤니티 체험<br>② Marks Park 180° 수평선<br>Bondi 곡선 해안</td>
+                <td data-label="브런치"><strong>Icebergs 카페</strong><br>또는 bills Bondi<br>해변 조식</td>
+              </tr>
+              <tr>
+                <td data-label=""><strong style="color:var(--sun)">9/6 일</strong></td>
+                <td data-label="코스">A: 숙소 루프<br>B: Centennial Park</td>
+                <td class="price" data-label="거리">3~4km<br>4~5km</td>
+                <td data-label="포인트">A: Observatory Hill<br>B: Grand Drive 가로수 터널<br>B: Paperbark Grove 회복</td>
+                <td data-label="브런치"><strong>Centennial<br>Homestead</strong><br>공원 안 아침</td>
+              </tr>
+              <tr>
+                <td data-label=""><strong style="color:var(--sun)">9/7 월</strong></td>
+                <td data-label="코스">Barangaroo<br>→ Opera House</td>
+                <td class="price" data-label="거리">4~6km</td>
+                <td data-label="포인트">Wulugul Walk 하버<br>Opera House 정면 러닝<br>복귀 시 Bridge 정면</td>
+                <td data-label="브런치"><strong>The Grounds<br>of the City</strong><br>도심 07:00 오픈</td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="position: relative; min-height: 340px; overflow: hidden; border: 1px solid rgba(250,249,245,0.12);">
+            <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=600&q=80&fit=crop" alt="Sydney Harbour Bridge 아침 러닝" style="display:block; width:100%; height:100%; object-fit:cover; object-position: center 30%;">
+            <div style="position:absolute; inset:0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.7) 100%);"></div>
+            <div style="position:absolute; bottom:14px; left:14px; right:14px; color:var(--white);">
+              <strong style="font-size:14px; display:block; line-height:1.3;">9월 시드니 일출 ~06:00</strong>
+              <span style="font-size:10px; color:rgba(250,249,245,0.7); display:block; margin-top:3px;">08:00 출발 시 골든아워 꼬리 · 모든 코스 희망자만 참여</span>
+            </div>
+          </div>
+        </div>
+        <div data-anim style="--delay: 4; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 4px;">
+          <div style="padding: 10px 12px; background: rgba(250,249,245,0.06); border: 1px solid rgba(250,249,245,0.1);">
+            <span style="font-family:var(--mono); font-size:9px; font-weight:900; color:var(--sun); display:block;">토요일 한정</span>
+            <strong style="font-size:12px; display:block; margin-top:4px; line-height:1.3;">parkrun</strong>
+            <span style="font-size:9px; color:rgba(250,249,245,0.6); display:block; margin-top:2px;">07:00 · 무료 · 300~800명<br>Grand Drive 5km 루프<br>기록 자동 저장</span>
+          </div>
+          <div style="padding: 10px 12px; background: rgba(250,249,245,0.06); border: 1px solid rgba(250,249,245,0.1);">
+            <span style="font-family:var(--mono); font-size:9px; font-weight:900; color:var(--ocean); display:block;">BEST VIEW</span>
+            <strong style="font-size:12px; display:block; margin-top:4px; line-height:1.3;">Marks Park</strong>
+            <span style="font-size:9px; color:rgba(250,249,245,0.6); display:block; margin-top:2px;">Bondi 곡선 + 스카이라인<br>한 프레임에<br>아침 명상 포인트</span>
+          </div>
+          <div style="padding: 10px 12px; background: rgba(250,249,245,0.06); border: 1px solid rgba(250,249,245,0.1);">
+            <span style="font-family:var(--mono); font-size:9px; font-weight:900; color:var(--leaf); display:block;">HIDDEN GEM</span>
+            <strong style="font-size:12px; display:block; margin-top:4px; line-height:1.3;">Wendy's Garden</strong>
+            <span style="font-size:9px; color:rgba(250,249,245,0.6); display:block; margin-top:2px;">30년간 가꿈 비밀 정원<br>Lavender Bay 끝<br>러닝 후 회복 구간</span>
+          </div>
+          <div style="padding: 10px 12px; background: rgba(250,249,245,0.06); border: 1px solid rgba(250,249,245,0.1);">
+            <span style="font-family:var(--mono); font-size:9px; font-weight:900; color:var(--sun); display:block;">FINALE</span>
+            <strong style="font-size:12px; display:block; margin-top:4px; line-height:1.3;">Opera House 정면</strong>
+            <span style="font-size:9px; color:rgba(250,249,245,0.6); display:block; margin-top:2px;">마지막 날 아침<br>하버 워터프론트<br>여행의 피날레 러닝</span>
+          </div>
+        </div>
       </div>
-      <footer class="foot"><span>대장님 요청: 매일 다른 코스, 매일 다른 브런치</span><span>APPENDIX 02 / 06</span></footer>
+      <footer class="foot" style="color: rgba(250,249,245,0.66);">
+        <span>대장님 요청: 매일 다른 코스, 매일 다른 브런치 · 코스 상세는 출발 1주 전 확정</span>
+        <span>APPENDIX 02 / 06</span>
+      </footer>
     </section>
 
     <section class="slide appendix" aria-label="레스토랑 부록 3">
