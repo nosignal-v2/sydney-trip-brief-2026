@@ -2076,6 +2076,44 @@
         font-size: 8px;
       }
 
+      .restaurant-appendix .content {
+        gap: 6px;
+      }
+
+      .restaurant-appendix h2 {
+        font-size: 26px;
+      }
+
+      .restaurant-appendix .appendix__head {
+        gap: 3px;
+      }
+
+      .restaurant-appendix .venue-table tbody {
+        gap: 4px;
+      }
+
+      .restaurant-appendix .venue-table tr {
+        gap: 2px 6px;
+        padding: 5px 7px;
+      }
+
+      .restaurant-appendix .venue-table td {
+        font-size: 7px;
+        line-height: 1.15;
+      }
+
+      .restaurant-appendix .venue-table td:first-child {
+        font-size: 9px;
+      }
+
+      .restaurant-appendix .venue-table td:nth-child(2) {
+        display: none;
+      }
+
+      .restaurant-appendix .appendix__note {
+        display: none;
+      }
+
       .recommender {
         min-height: 18px;
         padding: 3px 5px;
@@ -2239,17 +2277,17 @@
           <button class="route__day" type="button" data-slide-target="3">
             <span class="route__num">9/3 (목)</span>
             <h3>도착 &amp; 적응</h3>
-            <p>Bounce → Le Foote → 체크인<br>Hubert 저녁 · Caterpillar 선택</p>
+            <p>Bounce → Mr. Wong → 체크인<br>King Clarence · 바 선택</p>
           </button>
           <button class="route__day" type="button" data-slide-target="4">
             <span class="route__num">9/4 (금)</span>
-            <h3>하버 &amp; 공연</h3>
-            <p>08:00 러닝 · train 복귀<br>13:00 ARIA · Opera House</p>
+            <h3>Bondi Coast Day</h3>
+            <p>08:00 해안 러닝 · Icebergs<br>Etheus 저녁 · Italo 선택</p>
           </button>
           <button class="route__day" type="button" data-slide-target="5">
             <span class="route__num">9/5 (토)</span>
-            <h3>Bondi Coast Day</h3>
-            <p>러닝조 08:00 · 자유 합류<br>09:45 Icebergs 수영 시작</p>
+            <h3>parkrun &amp; 하버</h3>
+            <p>07:00 parkrun · 11:30 ARIA<br>휴식 · Ashe · 공연 선택</p>
           </button>
           <button class="route__day" type="button" data-slide-target="6">
             <span class="route__num">9/6 (일)</span>
@@ -2259,7 +2297,7 @@
           <button class="route__day" type="button" data-slide-target="7">
             <span class="route__num">9/7 (월)</span>
             <h3>가볍게 마무리</h3>
-            <p>07:30 Opera House 러닝<br>16:00 재집결 → Airport T1</p>
+            <p>07:30 Harbour Bridge 러닝<br>16:00 재집결 → Airport T1</p>
           </button>
         </div>
       </div>
@@ -2296,12 +2334,12 @@
           <div class="timeline__row">
             <time class="timeline__time">11:30</time>
             <span class="timeline__mark"></span>
-            <div class="timeline__text"><strong>Bounce The Rocks에 짐 보관</strong><span>11:50까지 맡기면 Le Foote 가능</span></div>
+            <div class="timeline__text"><strong>Bounce The Rocks에 짐 보관</strong><span>11:50까지 맡기면 Mr. Wong 가능</span></div>
           </div>
           <div class="timeline__row">
             <time class="timeline__time">12:30</time>
             <span class="timeline__mark"></span>
-            <div class="timeline__text"><strong>Le Foote [하은픽]</strong><span>11:50 넘기면 The Rocks 빠른 점심</span></div>
+            <div class="timeline__text"><strong>Mr. Wong [대장픽]</strong><span>11:50 넘기면 The Rocks 빠른 점심</span></div>
           </div>
           <div class="timeline__row">
             <time class="timeline__time">14:00+</time>
@@ -2316,12 +2354,12 @@
           <div class="timeline__row">
             <time class="timeline__time">18:00</time>
             <span class="timeline__mark"></span>
-            <div class="timeline__text"><strong>Restaurant Hubert [하은픽]</strong><span>공통 저녁 1순위 · live jazz</span></div>
+            <div class="timeline__text"><strong>King Clarence [하은픽]</strong><span>9명 공통 저녁 · Asian BBQ &amp; grill</span></div>
           </div>
           <div class="timeline__row">
-            <time class="timeline__time">21:00</time>
+            <time class="timeline__time">20:15+</time>
             <span class="timeline__mark"></span>
-            <div class="timeline__text"><strong>The Caterpillar Club [대장픽]</strong><span>희망자만 · 대기 시 Maybe Sammy로</span></div>
+            <div class="timeline__text"><strong>Baxter Inn → Caterpillar Club</strong><span>희망자만 · 피곤하면 바로 숙소 복귀</span></div>
           </div>
         </div>
       </div>
@@ -2331,71 +2369,10 @@
       </footer>
     </section>
 
-    <section class="slide harbour" aria-label="9월 4일 하버와 오페라하우스">
-      <header class="chrome">
-        <span class="chrome__date">DAY 02 · FRI, SEP 04</span>
-        <span>HARBOUR DAY</span>
-      </header>
-      <div class="content">
-        <div>
-          <div class="kicker" data-anim>시드니다운 하루</div>
-          <h2 data-anim style="--delay: 1">하버를 건너 오페라하우스까지</h2>
-          <p class="lead" data-anim style="--delay: 2">러닝과 미술관은 선택이에요. 공통 점심과 저녁 공연 사이에는 숙소 휴식을 넉넉히 둬요.</p>
-        </div>
-        <div class="harbour__schedule" data-anim style="--delay: 3">
-          <div class="timeline">
-            <div class="timeline__row">
-              <time class="timeline__time">08:00</time>
-              <span class="timeline__mark"></span>
-              <div class="timeline__text"><strong>Harbour Bridge 러닝</strong><span>희망자 · 4~5km</span></div>
-            </div>
-            <div class="timeline__row">
-              <time class="timeline__time">09:30</time>
-              <span class="timeline__mark"></span>
-              <div class="timeline__text"><strong>Flying Bear 브런치</strong><span>walk-in · 나눠 앉아도 OK</span></div>
-            </div>
-            <div class="timeline__row">
-              <time class="timeline__time">10:40</time>
-              <span class="timeline__mark"></span>
-              <div class="timeline__text"><strong>train 복귀 (F5는 bonus)</strong><span>Milsons Point → Wynyard 4분</span></div>
-            </div>
-            <div class="timeline__row">
-              <time class="timeline__time">13:00</time>
-              <span class="timeline__mark"></span>
-              <div class="timeline__text"><strong>ARIA [성환픽]</strong><span>9명 공통 점심 · 하버 브리지 전망</span></div>
-            </div>
-            <div class="timeline__row">
-              <time class="timeline__time">15:00+</time>
-              <span class="timeline__mark"></span>
-              <div class="timeline__text"><strong>미술관 또는 숙소 휴식</strong><span>ARIA 끊나면 바로 휴식</span></div>
-            </div>
-            <div class="timeline__row">
-              <time class="timeline__time">19:00</time>
-              <span class="timeline__mark"></span>
-              <div class="timeline__text"><strong>Opera House · Jussen</strong><span>피아노 2대+오케스트라</span></div>
-            </div>
-            <div class="timeline__row">
-              <time class="timeline__time">AFTER</time>
-              <span class="timeline__mark"></span>
-              <div class="timeline__text"><strong>Caterpillar 또는 Vespertine</strong><span>9/3 미방문 시 대체</span></div>
-            </div>
-          </div>
-          <div class="harbour__note" aria-label="오페라하우스 공연 선택 정보">
-            <strong>공연 선택</strong><br>
-            1순위 Jussen(9/4 19:00 · 피아노 2대+오케스트라) · 대안 Velvet Inferno(70분 쇼 · 15세+) · Thomas Dunford(9/6 15:00 · 고전 현악기 독주). 모두 미예약
-          </div>
-        </div>
-      </div>
-      <footer class="foot">
-        <span>F5는 12:30 점심을 지킬 때만 · Caterpillar는 9/3 미방문 시 대체</span>
-        <a class="credit" href="https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_and_Sydney_Opera_House_panorama.jpg" target="_blank" rel="noreferrer">Photo Kgbo · CC BY-SA 4.0</a>
-      </footer>
-    </section>
-
-    <section class="slide bondi" aria-label="9월 5일 본다이">
+    <section class="slide bondi" aria-label="9월 4일 본다이">
       <div class="bondi__photo" aria-hidden="true"></div>
       <header class="chrome">
-        <span class="chrome__date">DAY 03 · SAT, SEP 05</span>
+        <span class="chrome__date">DAY 02 · FRI, SEP 04</span>
         <span>COAST DAY</span>
       </header>
       <div class="content">
@@ -2403,19 +2380,15 @@
           <div>
             <div class="kicker" data-anim>해안에서 보내는 하루</div>
             <h2 data-anim style="--delay: 1">Bondi에서 수영하고, 먹고, 쉬어요</h2>
-            <p class="lead" data-anim style="--delay: 2">러닝 멤버와 비러닝 멤버가 따로 출발해 10:00 Icebergs에서 만나요. 이후 해변·점심·카페를 함께 즐겨요.</p>
+            <p class="lead" data-anim style="--delay: 2">러닝조가 먼저 출발하고 늦은 출발조는 자연스럽게 합류해요. 금요일 해안에서 수영·산책·식사를 여유롭게 이어가요.</p>
             <div class="day-intro__tags" data-anim style="--delay: 3">
-              <span class="pill pill--choice">parkrun 07:00 또는 08:00 출발</span>
-              <span class="pill pill--choice">늦은출발조 자유 합류</span>
-              <span class="pill pill--group">09:45 Icebergs 수영</span>
+              <span class="pill pill--choice">러닝조 08:00 출발</span>
+              <span class="pill pill--choice">늦은 출발조 자유 합류</span>
+              <span class="pill pill--group">17:30 Etheus 공통 저녁</span>
               <span class="pill pill--choice">15:15 조기 귀환 가능</span>
             </div>
           </div>
           <div class="compact-plan" data-anim style="--delay: 3">
-            <div class="compact-plan__row">
-              <time>06:45</time>
-              <div><strong>parkrun 참가자 출발 (선택)</strong><span>Centennial Park 07:00 · 5km · 300~800명과 함께</span></div>
-            </div>
             <div class="compact-plan__row">
               <time>08:00</time>
               <div><strong>Bondi 러닝조 출발</strong><span>Bondi → Marks Park → Bronte 5~6km</span></div>
@@ -2438,18 +2411,79 @@
             </div>
             <div class="compact-plan__row">
               <time>12:30</time>
-              <div><strong>Bondi 점심 → Glory Days 커피</strong><span>Icebergs Dining 또는 현지 식당</span></div>
+              <div><strong>Bondi 점심 → Glory Days 커피</strong><span>Totti's 또는 Bondi 권역 가벼운 점심</span></div>
             </div>
             <div class="compact-plan__row">
               <time>17:30</time>
-              <div><strong>Ashe 저녁 또는 20:00 Italo House</strong><span>희망자만 · 나머지는 숙소 복귀</span></div>
+              <div><strong>Etheus 공통 저녁</strong><span>피곤하면 먼저 복귀 · Italo House 추가 선택</span></div>
             </div>
           </div>
         </div>
       </div>
       <footer class="foot">
-        <span>15:00 전후 먼저 복귀 가능 · 야간 그룹은 22:00 전후 Hall St 출발</span>
+        <span>정시 집합보다 시간대 합류 · 15:15 조기 귀환 또는 Bondi 저녁</span>
         <a class="credit" href="https://commons.wikimedia.org/wiki/File:People_at_Bondi_Beach,_Sydney,_Australia.jpg" target="_blank" rel="noreferrer">Photo Mike Wilson · CC0</a>
+      </footer>
+    </section>
+
+    <section class="slide harbour" aria-label="9월 5일 파크런과 하버 다이닝">
+      <header class="chrome">
+        <span class="chrome__date">DAY 03 · SAT, SEP 05</span>
+        <span>PARKRUN &amp; HARBOUR</span>
+      </header>
+      <div class="content">
+        <div>
+          <div class="kicker" data-anim>달리고, 잘 먹고, 충분히 쉬기</div>
+          <h2 data-anim style="--delay: 1">parkrun에서 ARIA, Ashe까지</h2>
+          <p class="lead" data-anim style="--delay: 2">아침 러닝은 희망자만 참여해요. ARIA 점심 뒤에는 숙소 휴식을 기본으로 두고, 공연·관광은 선택해요.</p>
+        </div>
+        <div class="harbour__schedule" data-anim style="--delay: 3">
+          <div class="timeline">
+            <div class="timeline__row">
+              <time class="timeline__time">06:25</time>
+              <span class="timeline__mark"></span>
+              <div class="timeline__text"><strong>Centennial Park 이동</strong><span>parkrun 희망자 · 바코드 지참</span></div>
+            </div>
+            <div class="timeline__row">
+              <time class="timeline__time">07:00</time>
+              <span class="timeline__mark"></span>
+              <div class="timeline__text"><strong>Centennial Park parkrun</strong><span>5km · 무료 · 로컬 러너 문화</span></div>
+            </div>
+            <div class="timeline__row">
+              <time class="timeline__time">08:30+</time>
+              <span class="timeline__mark"></span>
+              <div class="timeline__text"><strong>숙소 복귀 · 자유시간</strong><span>샤워 · 늦잠 · 점심 준비</span></div>
+            </div>
+            <div class="timeline__row">
+              <time class="timeline__time">11:30</time>
+              <span class="timeline__mark"></span>
+              <div class="timeline__text"><strong>ARIA [성환픽]</strong><span>9명 공통 점심 · 유일한 파인다이닝</span></div>
+            </div>
+            <div class="timeline__row">
+              <time class="timeline__time">14:00</time>
+              <span class="timeline__mark"></span>
+              <div class="timeline__text"><strong>숙소 휴식이 기본</strong><span>Opera House · 미술관 · The Rocks는 선택</span></div>
+            </div>
+            <div class="timeline__row">
+              <time class="timeline__time">19:00</time>
+              <span class="timeline__mark"></span>
+              <div class="timeline__text"><strong>Ashe 공통 저녁</strong><span>Southeast Asian grill · 9명 좌석 확인</span></div>
+            </div>
+            <div class="timeline__row">
+              <time class="timeline__time">21:30</time>
+              <span class="timeline__mark"></span>
+              <div class="timeline__text"><strong>Bar Vespertine 선택</strong><span>피곤하면 Ashe 뒤 숙소 복귀</span></div>
+            </div>
+          </div>
+          <div class="harbour__note" aria-label="오후 선택 정보">
+            <strong>14:00~17:00 오후 선택</strong><br>
+            Jussen 매티니(Concert Hall) · Art Gallery + Botanic Garden · The Rocks 산책 · 숙소 휴식. Ashe 저녁에만 합류해도 괜찮아요. 모두 미예약
+          </div>
+        </div>
+      </div>
+      <footer class="foot">
+        <span>ARIA를 선택하면 여행 전체 파인다이닝은 이 한 곳 · 오후 휴식 권장</span>
+        <a class="credit" href="https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_and_Sydney_Opera_House_panorama.jpg" target="_blank" rel="noreferrer">Photo Kgbo · CC BY-SA 4.0</a>
       </footer>
     </section>
 
@@ -2506,7 +2540,7 @@
         <div>
           <div class="kicker" data-anim>마지막 날</div>
           <h2 data-anim style="--delay: 1">Bounce에 짐 맡기고, 18:00 전 T1</h2>
-          <p class="lead" data-anim style="--delay: 2">오전은 모두 선택이에요. 12:00 체크아웃 뒤 Bounce에 짐을 맡기고 15:45에 다시 모여요.</p>
+          <p class="lead" data-anim style="--delay: 2">오전은 모두 선택이에요. 12:00 체크아웃 뒤 Bounce에 짐을 맡기고, 수령 대표는 15:45 · 전원은 16:00에 모여요.</p>
           <div class="decisions" data-anim style="--delay: 3" aria-label="출발 전 결정할 항목">
             <span class="decision">Blue Mountains 인원</span>
             <span class="decision">Opera 공연</span>
@@ -2517,8 +2551,8 @@
         <div class="departure__line" data-anim style="--delay: 3">
           <div class="departure__row">
             <time>07:30</time>
-            <strong>Barangaroo → Opera House 러닝</strong>
-            <span>4~6km · 전날 늦었으면 생략</span>
+            <strong>Harbour Bridge → Lavender Bay 러닝</strong>
+            <span>Wendy's Garden → Flying Bear · 4~5km</span>
           </div>
           <div class="departure__row">
             <time>12:00</time>
@@ -2528,7 +2562,7 @@
           <div class="departure__row">
             <time>12:30</time>
             <strong>The Rocks · Circular Quay 자유 시간</strong>
-            <span>Opera Bar · QVB · 기념품 · 산책</span>
+            <span>QVB · Opera Bar · Barangaroo · 산책</span>
           </div>
           <div class="departure__row">
             <time>15:45</time>
@@ -2553,7 +2587,7 @@
         </div>
       </div>
       <footer class="foot">
-        <span>현재 일정 버전 · 2026-07-30.11</span>
+        <span>현재 일정 버전 · 2026-07-31.5</span>
         <button class="appendix-jump" type="button" data-slide-target="8">숙소·러닝 부록 →</button>
       </footer>
     </section>
@@ -2607,7 +2641,7 @@
     <section class="slide appendix run-appendix" aria-label="러닝 코스 상세 부록 2" style="background: #000000; color: var(--white);">
       <header class="chrome" style="color: rgba(250,249,245,0.66);">
         <span class="chrome__date">APPENDIX 02 · RUN & BRUNCH</span>
-        <span>날짜를 누르면 코스 정보와 사진이 바뀜어요</span>
+        <span>날짜를 누르면 코스 정보와 사진이 바뀌어요</span>
       </header>
       <div class="content" style="gap: 14px;">
         <div class="appendix__head">
@@ -2621,11 +2655,11 @@
           <div class="run-route-tabs" role="tablist" aria-label="날짜별 러닝 코스">
             <button class="run-route-tab is-selected" type="button" role="tab" aria-selected="true" aria-controls="run-map-fri" data-run-route="fri">
               <time>9/4 (금)</time>
-              <span><strong>Harbour Bridge</strong>4~5km · Flying Bear</span>
+              <span><strong>Bondi Coast</strong>5~6km · Icebergs</span>
             </button>
             <button class="run-route-tab" type="button" role="tab" aria-selected="false" aria-controls="run-map-sat" data-run-route="sat">
               <time>9/5 (토)</time>
-              <span><strong>parkrun + Bondi</strong>5km + 5~6km · Icebergs</span>
+              <span><strong>Centennial parkrun</strong>5km · 커피·회복</span>
             </button>
             <button class="run-route-tab" type="button" role="tab" aria-selected="false" aria-controls="run-map-sun" data-run-route="sun">
               <time>9/6 (일)</time>
@@ -2633,36 +2667,36 @@
             </button>
             <button class="run-route-tab" type="button" role="tab" aria-selected="false" aria-controls="run-map-mon" data-run-route="mon">
               <time>9/7 (월)</time>
-              <span><strong>Opera House</strong>4~6km · The Grounds</span>
+              <span><strong>Harbour Bridge</strong>4~5km · Flying Bear</span>
             </button>
           </div>
           <div class="run-photo-stage" aria-live="polite">
             <figure class="run-photo-panel" id="run-map-fri" role="tabpanel">
-              <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&q=80&fit=crop" alt="Sydney Harbour Bridge 아침" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center 40%;">
+              <img src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80&fit=crop" alt="Bondi Beach 아침 해안" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center 60%;">
               <figcaption class="route-map__meta">
-                <strong>9/4 · 08:00 출발 · 4~5km</strong>
-                <span>Observatory Hill → 다리 87m 파노라마 → Mary Booth Lookout → Luna Park 수변 → Wendy's Garden → Flying Bear 브런치</span>
+                <strong>9/4 · 08:00 출발 · 5~6km</strong>
+                <span>Bondi Beach → Marks Park → Tamarama → Bronte 왕복 → 09:45 Icebergs 수영. 늦은 출발조는 자연스럽게 합류</span>
               </figcaption>
             </figure>
             <figure class="run-photo-panel" id="run-map-sat" role="tabpanel" hidden>
-              <img src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80&fit=crop" alt="Bondi Beach 아침 해안" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center 60%;">
+              <img src="https://images.unsplash.com/photo-1761380352392-35fe8ef36536?w=800&q=80&fit=crop" alt="시드니의 햇살 든 공원 숲" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center;">
               <figcaption class="route-map__meta">
-                <strong>9/5 · ① parkrun 07:00 (5km, 300~800명) ② Bondi 08:00 (5~6km)</strong>
-                <span>① Grand Drive 루프 · 로컬 커뮤니티 체험 → ② Marks Park 180° 수평선 → Tamarama 계단 → Bronte → Icebergs 카페 브런치</span>
+                <strong>9/5 · 07:00 출발 · 5km · 300~800명</strong>
+                <span>McKay Oval 집합 → Centennial Park 5km 타임드 런 → 바코드 스캔 → 커피·회복 → 08:30 숙소 복귀</span>
               </figcaption>
             </figure>
             <figure class="run-photo-panel" id="run-map-sun" role="tabpanel" hidden>
-              <img src="https://images.unsplash.com/photo-1595901650604-726b7ed238d2?w=800&q=80&fit=crop" alt="Centennial Park 가로수" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center;">
+              <img src="https://images.unsplash.com/photo-1761380352392-35fe8ef36536?w=800&q=80&fit=crop" alt="시드니의 햇살 든 공원 숲" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center;">
               <figcaption class="route-map__meta">
                 <strong>9/6 · 07:30 출발 · A: 3~4km / B: 4~5km</strong>
                 <span>A: Observatory Hill · Walsh Bay · Barangaroo 루프 → B: Grand Drive 가로수 터널 · Paperbark Grove 회복 → Centennial Homestead 브런치</span>
               </figcaption>
             </figure>
             <figure class="run-photo-panel" id="run-map-mon" role="tabpanel" hidden>
-              <img src="https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=800&q=80&fit=crop" alt="Sydney Opera House 아침" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center 30%;">
+              <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&q=80&fit=crop" alt="Sydney Harbour Bridge 아침" style="display:block;width:100%;height:100%;object-fit:cover;object-position:center 40%;">
               <figcaption class="route-map__meta">
-                <strong>9/7 · 07:30 출발 · 4~6km · 여행의 피날레</strong>
-                <span>Nawi Cove → Wulugul Walk 하버 파노라마 → Circular Quay → Opera House 정면 러닝 → 복귀 시 Bridge 정면 → The Grounds of the City 브런치</span>
+                <strong>9/7 · 07:30 출발 · 4~5km · 여행의 피날레</strong>
+                <span>Harbour Bridge → Lavender Bay → Wendy Whiteley's Secret Garden → Flying Bear 브런치 → train으로 숙소 복귀</span>
               </figcaption>
             </figure>
           </div>
@@ -2674,18 +2708,18 @@
       </footer>
     </section>
 
-    <section class="slide appendix" aria-label="레스토랑 부록 3">
+    <section class="slide appendix restaurant-appendix" aria-label="레스토랑 부록 3">
       <header class="chrome">
         <span class="chrome__date">APPENDIX 03 · RESTAURANT</span>
-        <span>레스토랑 전체 목록</span>
+        <span>현재 일정 · 핵심 대안</span>
       </header>
       <div class="content">
         <div class="appendix__head">
           <div>
-            <div class="kicker" data-anim>식당 전체 목록</div>
-            <h2 data-anim style="--delay: 1">파인다이닝부터 캐주얼까지</h2>
+            <div class="kicker" data-anim>현재 일정 식당</div>
+            <h2 data-anim style="--delay: 1">공통 식사와 핵심 대안</h2>
           </div>
-          <p class="appendix__summary" data-anim style="--delay: 2">추천인과 리서치로 수집한 레스토랑 전체 목록이에요. 가격은 음료 제외 1인 기준이에요.</p>
+          <p class="appendix__summary" data-anim style="--delay: 2">현재 일정에 채택했거나 바로 교체할 수 있는 후보예요. 모두 미예약이며 가격은 음료 제외 1인 기준이에요.</p>
         </div>
         <table class="venue-table" data-anim style="--delay: 3">
           <thead>
@@ -2695,93 +2729,58 @@
             <tr>
               <td data-label=""><a href="https://ariasydney.com.au/" target="_blank" rel="noreferrer">ARIA</a></td>
               <td data-label="주소">1 Macquarie St, Sydney</td>
-              <td class="price" data-label="가격">A$295 /인</td>
+              <td class="price" data-label="가격">A$295 +10% /인</td>
               <td data-label="추천"><span class="recommender recommender--friend">성환님</span></td>
               <td data-label="">파인다이닝 · 오페라하우스 하버 브리지 전망 · 8코스</td>
             </tr>
             <tr>
-              <td data-label=""><a href="https://www.aaliarestaurant.com/" target="_blank" rel="noreferrer">AALIA</a></td>
-              <td data-label="주소">25 Martin Place, Sydney</td>
-              <td class="price" data-label="가격">A$129–179 /인</td>
-              <td data-label="추천"><span class="recommender recommender--friend">성환님</span></td>
-              <td data-label="">중동·북아프리카 공유 메뉴</td>
-            </tr>
-            <tr>
-              <td data-label=""><a href="https://www.lumidining.com/" target="_blank" rel="noreferrer">LuMi Dining</a></td>
-              <td data-label="주소">56 Pirrama Rd, Pyrmont</td>
-              <td class="price" data-label="가격">A$265–350 /인</td>
-              <td data-label="추천"><span class="recommender recommender--friend">성환님</span></td>
-              <td data-label="">이탈리아×일본 수변 공간</td>
+              <td data-label=""><a href="https://www.bentleyrestaurantgroup.com.au/kingclarence" target="_blank" rel="noreferrer">King Clarence</a></td>
+              <td data-label="주소">171 Clarence St, Sydney</td>
+              <td class="price" data-label="가격">A$80–120 /인 추정</td>
+              <td data-label="추천"><span class="recommender recommender--friend">하은님</span></td>
+              <td data-label="">9/3 공통 저녁 · Asian BBQ &amp; grill</td>
             </tr>
             <tr>
               <td data-label=""><a href="https://chinadoll.com.au/" target="_blank" rel="noreferrer">China Doll</a></td>
               <td data-label="주소">Woolloomooloo</td>
-              <td class="price" data-label="가격">A$80–115 /인</td>
+              <td class="price" data-label="가격">A$80–95 /인</td>
               <td data-label="추천"><span class="recommender">대장님</span></td>
               <td data-label="">핑거 워프 아시아 공유 메뉴</td>
             </tr>
             <tr>
               <td data-label=""><a href="https://merivale.com/venues/mrwong/" target="_blank" rel="noreferrer">Mr. Wong</a></td>
               <td data-label="주소">3 Bridge Ln, Sydney</td>
-              <td class="price" data-label="가격">A$100–150 /인</td>
+              <td class="price" data-label="가격">A$90 /인 추정</td>
               <td data-label="추천"><span class="recommender">대장님</span></td>
               <td data-label="">광둥식 딤섬·오리</td>
             </tr>
             <tr>
               <td data-label=""><a href="https://merivale.com/venues/tottis-bondi/" target="_blank" rel="noreferrer">Totti's Bondi</a></td>
               <td data-label="주소">283 Bondi Rd, Bondi</td>
-              <td class="price" data-label="가격">A$60–90 /인</td>
+              <td class="price" data-label="가격">가격 확인 필요</td>
               <td data-label="추천"><span class="recommender recommender--research">지인</span></td>
               <td data-label="">화덕빵 이탈리안 · Merivale</td>
             </tr>
             <tr>
-              <td data-label=""><a href="https://therocks.com/eat-drink/the-cut-bar-grill/" target="_blank" rel="noreferrer">The Cut Bar &amp; Grill</a></td>
-              <td data-label="주소">The Rocks</td>
-              <td class="price" data-label="가격">A$100–150 /인</td>
-              <td data-label="추천"><span class="recommender recommender--research">지인</span></td>
-              <td data-label="">스테이크 예약 필수</td>
+              <td data-label=""><a href="https://www.etheus.sydney/food-menus" target="_blank" rel="noreferrer">Etheus</a></td>
+              <td data-label="주소">Bondi Pavilion</td>
+              <td class="price" data-label="가격">A$69 +10% /인</td>
+              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
+              <td data-label="">9/4 공통 저녁 · Greek sharing</td>
             </tr>
             <tr>
-              <td data-label=""><a href="https://idrb.com/dining-room/" target="_blank" rel="noreferrer">Icebergs Dining Room</a></td>
-              <td data-label="주소">Bondi Beach</td>
-              <td class="price" data-label="가격">A$90+ /인</td>
-              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
-              <td data-label="">태평양 전망 이탈리아식</td>
+              <td data-label=""><a href="https://www.smh.com.au/goodfood/sydney-eating-out/team-behind-king-clarence-announces-new-south-east-asian-grill-20260603-p603iu.html" target="_blank" rel="noreferrer">Ashe</a></td>
+              <td data-label="주소">Angel Place &amp; Ash St</td>
+              <td class="price" data-label="가격">A$80–120 /인 추정</td>
+              <td data-label="추천"><span class="recommender recommender--friend">하은님</span></td>
+              <td data-label="">9/5 공통 저녁 · Southeast Asian grill</td>
             </tr>
             <tr>
-              <td data-label=""><a href="https://www.bennelong.com.au/" target="_blank" rel="noreferrer">Bennelong</a></td>
-              <td data-label="주소">Opera House</td>
-              <td class="price" data-label="가격">A$225+ /인</td>
-              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
-              <td data-label="">9명 단체 식사</td>
-            </tr>
-            <tr>
-              <td data-label=""><a href="https://www.saintpeter.com.au/reservations" target="_blank" rel="noreferrer">Saint Peter</a></td>
-              <td data-label="주소">Paddington</td>
-              <td class="price" data-label="가격">A$195–395 /인</td>
-              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
-              <td data-label="">생선 코스</td>
-            </tr>
-            <tr>
-              <td data-label=""><a href="https://www.sixpenny.com.au/" target="_blank" rel="noreferrer">Sixpenny</a></td>
-              <td data-label="주소">Stanmore</td>
-              <td class="price" data-label="가격">A$320 /인</td>
-              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
-              <td data-label="">7코스 호주 현대식</td>
-            </tr>
-            <tr>
-              <td data-label=""><a href="https://firedoor.com.au/" target="_blank" rel="noreferrer">Firedoor</a></td>
-              <td data-label="주소">Surry Hills</td>
-              <td class="price" data-label="가격">A$155+ /인</td>
-              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
-              <td data-label="">오픈 키친</td>
-            </tr>
-            <tr>
-              <td data-label=""><a href="https://shellhouse.com.au/dining-room-terrace/" target="_blank" rel="noreferrer">Shell House</a></td>
-              <td data-label="주소">37 Margaret St, Sydney</td>
-              <td class="price" data-label="가격">A$120–210+ /인</td>
-              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
-              <td data-label="">유산 건물</td>
+              <td data-label=""><a href="https://swillhouse.com/venues/restaurant-hubert/" target="_blank" rel="noreferrer">Restaurant Hubert</a></td>
+              <td data-label="주소">15 Bligh St, Sydney</td>
+              <td class="price" data-label="가격">A$185 이벤트</td>
+              <td data-label="추천"><span class="recommender recommender--friend">하은님</span></td>
+              <td data-label="">9/6 잔류팀 선택 · French · live jazz</td>
             </tr>
           </tbody>
         </table>
@@ -2801,7 +2800,7 @@
             <div class="kicker" data-anim>바</div>
             <h2 data-anim style="--delay: 1">예약 없이 들르는 시드니 바</h2>
           </div>
-          <p class="appendix__summary" data-anim style="--delay: 2">Swillhouse 그룹의 두 곳. 예약 없이 현장 입장이에요.</p>
+          <p class="appendix__summary" data-anim style="--delay: 2">날짜별 선택 바예요. 피곤하면 언제든 생략하고, 현장 입장·9명 조건은 방문 전에 확인해요.</p>
         </div>
         <table class="venue-table" data-anim style="--delay: 3">
           <thead>
@@ -2821,6 +2820,20 @@
               <td class="price" data-label="가격">A$20–50 /인</td>
               <td data-label="추천"><span class="recommender">대장님</span> <span class="recommender">하은님</span></td>
               <td data-label="">위스키 바 · 블루스 · Swillhouse</td>
+            </tr>
+            <tr>
+              <td data-label=""><a href="https://www.italohouse.com.au/" target="_blank" rel="noreferrer">Italo House</a></td>
+              <td data-label="주소">Hall St, Bondi Beach</td>
+              <td class="price" data-label="가격">A$24–48 /인</td>
+              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
+              <td data-label="">9/4 Etheus 뒤 선택 · Italo disco · DJ</td>
+            </tr>
+            <tr>
+              <td data-label=""><a href="https://www.smh.com.au/goodfood/sydney-eating-out/team-behind-king-clarence-announces-new-south-east-asian-grill-20260603-p603iu.html" target="_blank" rel="noreferrer">Bar Vespertine</a></td>
+              <td data-label="주소">350 George St, Sydney</td>
+              <td class="price" data-label="가격">A$25–50 /인 추정</td>
+              <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
+              <td data-label="">9/5 Ashe 뒤 선택 · live jazz · 지하 바</td>
             </tr>
           </tbody>
         </table>
@@ -2855,11 +2868,11 @@
               <td data-label="">수변 카페 · 하버브리지 뷰</td>
             </tr>
             <tr>
-              <td data-label=""><a href="https://www.bills.com.au/restaurants/bondi" target="_blank" rel="noreferrer">bills Bondi Beach</a></td>
-              <td data-label="주소">79 Hall St, Bondi Beach</td>
-              <td class="price" data-label="가격">A$25–45 /인</td>
+              <td data-label=""><a href="https://glorydaysbondi.com.au/" target="_blank" rel="noreferrer">Glory Days</a></td>
+              <td data-label="주소">Bondi Pavilion</td>
+              <td class="price" data-label="가격">A$20–40 /인</td>
               <td data-label="추천"><span class="recommender recommender--research">일정 리서치</span></td>
-              <td data-label="">7시 오픈 브런치</td>
+              <td data-label="">9/4 해안 일정 · 카페·가벼운 식사</td>
             </tr>
             <tr>
               <td data-label=""><a href="https://centennialhomestead.com.au/" target="_blank" rel="noreferrer">Centennial Homestead</a></td>
